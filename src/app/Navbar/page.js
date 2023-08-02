@@ -1,11 +1,10 @@
-import Navbar from '@/components/nav/page';
-import React from 'react';
+import Navbar from "@/components/emma/page";
+import React from "react";
 
 export default function Home() {
-  return (
-    <div>
-        <Navbar />
-    </div>
-    
-  )
-  }
+	return (
+		<div>
+			<Navbar />
+		</div>
+	);
+}

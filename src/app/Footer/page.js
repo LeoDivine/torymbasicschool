@@ -1,4 +1,4 @@
-import Footer from "@/component/footer";
+import Footer from "@/components/emeka/footer";
 
 const Page = () => {
 	return (
@@ -91,7 +91,7 @@ const Page = () => {
 			<br />
 			<br />
 			<br />
-			 {/* <Footer /> */}
+			{/* <Footer /> */}
 		</div>
 	);
 };
