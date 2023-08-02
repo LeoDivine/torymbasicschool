@@ -62,7 +62,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className={`flex flex-col gap-10 text-center uppercase md:hidden transition-all ${isOpen ? 'h-72': 'h-0'} duration-500 ease-in-out`}>
+      <div className={`flex flex-col gap-10 text-center overflow-hidden uppercase md:hidden transition-all ${isOpen ? 'h-72': 'h-0'} duration-500 ease-in-out`}>
         <a href="#" className="text-white block">Home</a>
         <a href="#" className="text-white block">About</a>
         <a href="#" className="text-white block">Gallery</a>
