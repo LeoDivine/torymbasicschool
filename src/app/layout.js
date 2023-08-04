@@ -1,7 +1,7 @@
-import Navbar from "@/components/emma/page";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/emeka/footer";
+import Navbar from "@/components/emma/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
