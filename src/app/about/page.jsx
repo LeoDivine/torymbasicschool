@@ -11,6 +11,7 @@ const About = () => {
 			<Gallery image="Image/card2.jpg" name={'Emeka Joshua'} position={'Engineer'} />
 			<Gallery image="Image/card6.jpg" name={'Emeka Joshua'} position={'Engineer'} />
 			<Gallery image="Image/card7.jpg" name={'Emeka Joshua'} position={'Engineer'} />
+			<Gallery image="Image/card8.jpg" name={'Emeka Joshua'} position={'Engineer'} />
 		</div>
   )
 }
