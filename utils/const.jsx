@@ -1,37 +1,18 @@
-export const ContactInformation = [
 
-	{ name: "Phone Number", link: "+234-706-565-0838" },
-	{ name: "Email Address", link: "akhabuevictory427@gmail.com" },
-];
-export const SchoolHours = [
-	{ name: "Start", link: "#" },
-	{ name: "End", link: "#" },
-	
-];
-export const QuickLinks = [
-	{ name: "About Us", link: "/about" },
-	{ name: "Contact US", link: "/contact" },
-	{ name: "Admission", link: "/contact" },
-	{ name: "Academics", link: "/contact" },
-];
-export const Location = [
-	{
-		name: "Get Direction",
-		link: "https://goo.gl/maps/7j8sCh5juFChCvXq9",
-	},
-	{ name: "Address", link: "" },
-];
 export const SocialMedia = [
 	{
-		name: "phone",
-		link: "tel:07065650838",
+		name: 'phone',
+		link: 'tel:07065650838',
 		icon: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
 				height='1em'
 				viewBox='0 0 512 512'
 			>
-				<path d='M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z' fill="white" />
+				<path
+					d='M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z'
+					fill='white'
+				/>
 			</svg>
 		),
 	},
@@ -52,8 +33,8 @@ export const SocialMedia = [
 		),
 	},
 	{
-		name: "logo-whatsapp",
-		link: "https://wa.me/+2347060565838",
+		name: 'logo-whatsapp',
+		link: 'https://wa.me/+2347060565838',
 		icon: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
@@ -69,8 +50,8 @@ export const SocialMedia = [
 	},
 
 	{
-		name: "email",
-		link: "mailto:akhabuevictory427@gmail.com",
+		name: 'email',
+		link: 'mailto:akhabuevictory427@gmail.com',
 		icon: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
@@ -89,101 +70,74 @@ export const Accodians = [
 	{
 		title: "What is Tory M Basic School's age range for students?",
 		description:
-			"We welcome children aged 2 to 5 years old at Tory M Basic School.",
+			'We welcome children aged 2 to 5 years old at Tory M Basic School.',
 	},
 
 	{
-		title: "What are the school hours?",
+		title: 'What are the school hours?',
 		description:
-			"Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.",
+			'Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.',
 	},
 
 	{
-		title: "Does Tory M Basic School offer transportation services?",
+		title: 'Does Tory M Basic School offer transportation services?',
 		description:
-			"Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.",
+			'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
 	},
 
 	{
-		title: "Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.",
+		title: 'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
 		description:
-			"To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.",
+			'To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.',
 	},
 
 	{
-		title: "Is there a uniform policy at the school?",
+		title: 'Is there a uniform policy at the school?',
 		description:
-			"Yes, we have a school uniform policy to promote a sense of identity and equality among our students.",
+			'Yes, we have a school uniform policy to promote a sense of identity and equality among our students.',
 	},
 
 	{
-		title: "How are parents involved in the school community?",
+		title: 'How are parents involved in the school community?',
 		description:
-			"We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.",
+			'We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.',
+	},
+];
+
+export const FOOTER_ITEMS = [
+	{
+		title: 'Quick Links',
+		links: [
+			{ name: 'About Us', link: '/about' },
+			{ name: 'Contact US', link: '/contact' },
+			{ name: 'Admission', link: '/contact' },
+			{ name: 'Academics', link: '/contact' },
+		],
+	},
+	{
+		title: 'Location',
+		links: [
+			{
+				name: 'Get Direction',
+				link: 'https://goo.gl/maps/igGWyLjzogTEvUhg9',
+			},
+			{ name: 'Address', link: '' },
+		],
+	},
+	{
+		title: 'School Hours',
+		links: [
+			{ name: 'Start', link: '#' },
+			{ name: 'End', link: '#' },
+		],
+	},
+	{
+		title: 'Contact Information',
+		links: [
+			{ name: 'Phone Number', link: '+234-706-565-0838' },
+			{ name: 'Email Address', link: 'akhabuevictory427@gmail.com' },
+		],
 	},
 ];
 
 
-export const FOOTER_LINKS = [
-	{
-		title: "Quick Links",
-		links: [
-			{
-				name: "Home",
-				link: "/",
-			},
-			{
-				name: "About",
-				link: "/about",
-			},
-			{
-				name: "etc 1",
-				link: "/about",
-			},
-			{
-				name: "etc 2",
-				link: "/about",
-			},
-			{
-				name: "etc 3",
-				link: "/about",
-			},
-		],
-	},
-	{
-		title: "Resources",
-		links: [
-			{
-				name: "Blog",
-				link: "/blog",
-			},
-			{
-				name: "Gallery",
-				link: "/gallery",
-			},
-		],
-	},
-	{
-		title: "Policies",
-		links: [
-			{
-				name: "Privacy",
-				link: "/privacy",
-			},
-			{
-				name: "T & C",
-				link: "/tandc",
-			},
-		],
-	},
-	{
-		title: "Location",
-		links: [
-			{
-				name: "Get Direction",
-				link: "https://goo.gl/maps/7j8sCh5juFChCvXq9",
-			},
-			{ name: "Address", link: "" },
-		],
-	},
-];

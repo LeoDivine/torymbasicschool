@@ -1,19 +1,17 @@
-import Item from "./Item";
-import {
-	ContactInformation,
-	SchoolHours,
-	QuickLinks,
-	Location,
-} from "../../../utils/const";
-const ItemsContainer = () => {
+import Item from './Item';
+import { FOOTER_ITEMS } from '../../../utils/const';
+const FooterItems = () => {
 	return (
 		<div className=' grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6 sm:px-8 px-5 py-16'>
-			<Item Links={ContactInformation} title='Contact Information' />
-			<Item Links={SchoolHours} title='School Hours' />
-			<Item Links={QuickLinks} title='QuickLinks' />
-			<Item Links={Location} title='location' />
+			{FOOTER_ITEMS.map((footerItem, i) => (
+				<Item
+					key={i}
+					links={footerItem.links}
+					title={footerItem.title}
+				/>
+			))}
 		</div>
 	);
 };
 
-export default ItemsContainer;
+export default FooterItems;
