@@ -3,7 +3,7 @@ import Card from "./sectComp";
 
 export default function aboutSect() {
   return (
-    <divs
+    <div
       className="my-[30px] h-screen px-[20px] text-center"
     >
       <h1 className=" text-[30px] pt-6 font-bold md:text-[40px]">
@@ -16,6 +16,6 @@ export default function aboutSect() {
         <Card cardTitle="Interesting Classroom" cardImage="imgsrc/interestingclass.webp" />
         <Card cardTitle="Peaceful Environment" cardImage="imgsrc/env.jpg" />
       </div>
-    </divs>
+    </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import LangingPage from "../components/divine/landingpagecomp.jsx";
+import Landingpagecomp from "../components/divine/landingpagecomp.jsx";
 
 export default function page() {
   return (
     <div>
-      <LangingPage />
+     <Landingpagecomp/>
     </div>
   );
 }
