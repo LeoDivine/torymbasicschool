@@ -1,5 +1,5 @@
-'use client'
-import React from 'react'
+'use client';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const Mission = () => {
@@ -7,7 +7,7 @@ const Mission = () => {
 		triggerOnce: false,
 		threshold: 0.5,
     });
-
+ 
     const [visionRef, visionInView] = useInView({
 		triggerOnce: false,
 		threshold: 0.5,
