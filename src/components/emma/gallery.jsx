@@ -1,14 +1,47 @@
-import React from 'react';
+import React from 'react'
+import Card from './card'
 
-const Gallery = ({ image, name, position }) => {
+const CardList= () => {
   return (
-      <div className="w-96 h-56 border items-center rounded-lg shadow-2xl shadow-black bg-slate-500">
-        <img className="w-full h-40 rounded-lg object-top object-cover" src={image} alt="" />
-        <div className="text-center">
-          <div className="text-white">{name}</div>{position}
-        </div>
-      </div>
-  );
-};
+    
+<div className='w-[100%] flex flex-wrap justify-around '>
+	<Card
+		image='Image/card1.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card3.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card5.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card4.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card2.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card6.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+	<Card
+		image='Image/card7.jpg'
+		name={"Emeka Joshua"}
+		position={"Engineer"}
+	/>
+</div>
+  )
+}
 
-export default Gallery;
+export default CardList
