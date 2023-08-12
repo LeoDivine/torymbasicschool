@@ -1,24 +1,4 @@
-export const ContactInformation = [
-	{ name: 'Phone Number', link: '+234-706-565-0838' },
-	{ name: 'Email Address', link: 'akhabuevictory427@gmail.com' },
-];
-export const SchoolHours = [
-	{ name: 'Start', link: '#' },
-	{ name: 'End', link: '#' },
-];
-export const QuickLinks = [
-	{ name: 'About Us', link: '/about' },
-	{ name: 'Contact US', link: '/contact' },
-	{ name: 'Admission', link: '/contact' },
-	{ name: 'Academics', link: '/contact' },
-];
-export const Location = [
-	{
-		name: 'Get Direction',
-		link: '<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2029185.1384399328!2d3.1439049683829494!3d6.615553998218683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x103b88c58ab93f09%3A0xba794b2a62413ee2!2sFestac%20Town%2C%20Lagos!3m2!1d6.4702531!2d3.2818047999999997!4m5!1s0x1040d54b13f42cd1%3A0x220d1bbd38785192!2sTory%20M.%20Basic%20School%2C%20No.1%20Idehen%20Close%2C%20Ikpoba%20Hl%2C%20off%20Jemila%20Road%2C%20300105%2C%20Benin%20City%2C%20Edo!3m2!1d6.3496985!2d5.6557563!5e0!3m2!1sen!2sng!4v1691155602888!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>',
-	},
-	{ name: 'Address', link: '' },
-];
+
 export const SocialMedia = [
 	{
 		name: 'phone',
@@ -36,22 +16,22 @@ export const SocialMedia = [
 			</svg>
 		),
 	},
-	// {
-	// 	name: "logo-instagram",
-	// 	link: "https://instagram.com",
-	// 	icon: (
-	// 		<svg
-	// 			xmlns='http://www.w3.org/2000/svg'
-	// 			height='1em'
-	// 			viewBox='0 0 448 512'
-	// 		>
-	// 			<path
-	// 				d='M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z'
-	// 				fill='white'
-	// 			/>
-	// 		</svg>
-	// 	),
-	// },
+	{
+		name: "logo-instagram",
+		link: "https://instagram.com",
+		icon: (
+			<svg
+				xmlns='http://www.w3.org/2000/svg'
+				height='1em'
+				viewBox='0 0 448 512'
+			>
+				<path
+					d='M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z'
+					fill='white'
+				/>
+			</svg>
+		),
+	},
 	{
 		name: 'logo-whatsapp',
 		link: 'https://wa.me/+2347060565838',
@@ -86,41 +66,41 @@ export const SocialMedia = [
 		),
 	},
 ];
-export const Accodians = [
+export const ACCORDIONS = [
 	{
 		title: "What is Tory M Basic School's age range for students?",
 		description:
-			'We welcome children aged 2 to 5 years old at Tory M Basic School.',
+			"We welcome children aged 2 to 5 years old at Tory M Basic School.",
 	},
 
 	{
-		title: 'What are the school hours?',
+		title: "What are the school hours?",
 		description:
-			'Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.',
+			"Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.",
 	},
 
 	{
-		title: 'Does Tory M Basic School offer transportation services?',
+		title: "Does Tory M Basic School offer transportation services?",
 		description:
-			'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
+			"Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.",
 	},
 
 	{
-		title: 'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
+		title: "What is the admission process?",
 		description:
-			'To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.',
+			"To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.",
 	},
 
 	{
-		title: 'Is there a uniform policy at the school?',
+		title: "Is there a uniform policy at the school?",
 		description:
-			'Yes, we have a school uniform policy to promote a sense of identity and equality among our students.',
+			"Yes, we have a school uniform policy to promote a sense of identity and equality among our students.",
 	},
 
 	{
-		title: 'How are parents involved in the school community?',
+		title: "How are parents involved in the school community?",
 		description:
-			'We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.',
+			"We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.",
 	},
 ];
 
@@ -154,8 +134,10 @@ export const FOOTER_ITEMS = [
 	{
 		title: 'Contact Information',
 		links: [
-			{ name: 'Phone Number', link: '+234-706-565-0838' },
+			{ name: 'Phone Number', link: 'tel:07065650838' },
 			{ name: 'Email Address', link: 'akhabuevictory427@gmail.com' },
 		],
 	},
 ];
+
+

@@ -1,13 +1,11 @@
 import { SocialMedia } from '../../../utils/const';
 import FooterItems from './ItemsContainer';
-
-import ItemsContainer from './ItemsContainer';
 import SocialMediaIcons from './SocialMediaIcons';
 
 const Footer = () => {
 	return (
-		<footer className='bg-gray-800 text-white'>
-			<div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#00000019] py-7'>
+		<footer className='  bg-gray-800  text-white'>
+			<div className='md:flex md:justify-between md:items-center sm:px-12 px-4  bg-basic py-7'>
 				<h1 className='lg:text-3xl text-2xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5'>
 					<span className='text-pink-300'>Tory M-</span>Basic
 					School
@@ -27,10 +25,7 @@ const Footer = () => {
 					</button>
 				</div>
 			</div>
-			<div className='bg-red-500'>
 				<FooterItems />
-			</div>
-
 			<div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-2 text-gray-400 text-sm pb-8'>
 				<span>
 					Copyright Ⓒ 2023 Tory M Basic School. All Rights
