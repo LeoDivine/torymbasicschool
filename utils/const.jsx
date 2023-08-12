@@ -66,41 +66,41 @@ export const SocialMedia = [
 		),
 	},
 ];
-export const Accodians = [
+export const ACCORDIONS = [
 	{
 		title: "What is Tory M Basic School's age range for students?",
 		description:
-			'We welcome children aged 2 to 5 years old at Tory M Basic School.',
+			"We welcome children aged 2 to 5 years old at Tory M Basic School.",
 	},
 
 	{
-		title: 'What are the school hours?',
+		title: "What are the school hours?",
 		description:
-			'Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.',
+			"Our school operates from 7:00 AM to 2:00 PM, Monday to Friday.",
 	},
 
 	{
-		title: 'Does Tory M Basic School offer transportation services?',
+		title: "Does Tory M Basic School offer transportation services?",
 		description:
-			'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
+			"Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.",
 	},
 
 	{
-		title: 'Yes, we provide safe and reliable transportation services for our students within designated areas. Please contact us for more details.',
+		title: "What is the admission process?",
 		description:
-			'To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.',
+			"To enroll your child at Tory M Basic School, please visit our admissions page on our website or contact our school office for guidance.",
 	},
 
 	{
-		title: 'Is there a uniform policy at the school?',
+		title: "Is there a uniform policy at the school?",
 		description:
-			'Yes, we have a school uniform policy to promote a sense of identity and equality among our students.',
+			"Yes, we have a school uniform policy to promote a sense of identity and equality among our students.",
 	},
 
 	{
-		title: 'How are parents involved in the school community?',
+		title: "How are parents involved in the school community?",
 		description:
-			'We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.',
+			"We encourage active parent participation through regular meetings, school events, and parent-teacher conferences. Parents are an integral part of our school community.",
 	},
 ];
 
@@ -134,7 +134,7 @@ export const FOOTER_ITEMS = [
 	{
 		title: 'Contact Information',
 		links: [
-			{ name: 'Phone Number', link: '+234-706-565-0838' },
+			{ name: 'Phone Number', link: 'tel:07065650838' },
 			{ name: 'Email Address', link: 'akhabuevictory427@gmail.com' },
 		],
 	},
