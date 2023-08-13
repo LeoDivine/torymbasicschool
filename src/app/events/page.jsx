@@ -6,17 +6,17 @@ import SocialLinks from "@/components/events/socialicons";
 
 const EventsCalendarPage = () => {
 	const events = [
-		// Add your events data here
+		// Add events data here
 		{ title: "Event 1", date: "2023-08-10" },
 		{ title: "Event 2", date: "2023-08-15" },
 		{ title: "Children's Day", date: "2024-05-29" },
-		// ...
+		
 	];
 
 	const dayCellDidMount = (info) => {
 		// Customize the style of the active day cell
 		if (info.date.getDate() === new Date().getDate()) {
-			info.el.style.backgroundColor = "#6B7280"; // Set your desired background color
+			info.el.style.backgroundColor = "#6B7280"; 
 		}
 	};
 

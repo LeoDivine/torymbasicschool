@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './sectComp';
 
-export default function aboutSect() {
+export default function AboutSect() {
 	return (
 		<div className='my-[30px] h-screen px-[20px] text-center'>
 			<h1 className=' text-[30px] pt-6 font-bold md:text-[40px] font-serif'>

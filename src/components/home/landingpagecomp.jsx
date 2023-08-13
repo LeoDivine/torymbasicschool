@@ -1,8 +1,9 @@
 // @react-server
 import React from 'react';
 import Carousel from './carouselcomp';
-import About from './aboutSect';
+
 import Image from 'next/image';
+import AboutSect from './aboutSect';
 
 const slides = [
 	'/imgsrc/firstImg.jpg',
@@ -57,7 +58,7 @@ export default function Landingpagecomp() {
 					</p>
 				</div>
 			</div>
-			<About />
+		<AboutSect/>
 		</main>
 	);
 }
