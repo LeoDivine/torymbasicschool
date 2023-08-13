@@ -15,7 +15,7 @@ export default function AboutSect() {
 				/>
 				<Card
 					cardTitle='Character Development'
-					cardImage='/imgsrc/characterdev.webp'
+					cardImage='/imgsrc/characterdev.webp' 
 				/>
 				<Card
 					cardTitle='Interesting Classroom'
