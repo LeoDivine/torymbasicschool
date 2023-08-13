@@ -1,8 +1,18 @@
-import CardList from "@/components/emma/gallery";
+import EventsCalendar from "@/components/gallery/eventsandcal";
+import CardList from "@/components/gallery/gallery";
 import React from "react";
 
 const Gallery = () => {
-	return <CardList />;
+	return (
+		<div className=' bg-gray-300 mx-auto p-8 '>
+			<div>
+				<CardList />
+			</div>
+			<div className='mt-8'>
+				<EventsCalendar />
+			</div>
+		</div>
+	);
 };
 
 export default Gallery;
