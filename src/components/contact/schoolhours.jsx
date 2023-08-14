@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const SchoolHours = () => {
 	return (
@@ -25,7 +25,7 @@ const SchoolHours = () => {
 					<h3 className='py-4 text-lg font-bold'>
 						Holidays & Breaks
 					</h3>
-					<p>New Year's Day: January 1</p>
+					<p>{`New Year's Day: January 1`}</p>
 					<p>Spring Break: March 15 - 19</p>
 					<p>Summer Break: June 1 - August 31</p>
 				</div>

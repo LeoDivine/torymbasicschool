@@ -1,14 +1,13 @@
-'use client'
-import React, { useState } from "react";
-
+'use client';
+import React, { useState } from 'react';
 
 const ContactForm = () => {
 	const [formData, setFormData] = useState({
-		name: "",
-		email: "",
-		subject: "",
-		message: "",
-		grade: "",
+		name: '',
+		email: '',
+		subject: '',
+		message: '',
+		grade: '',
 	});
 
 	const handleChange = (e) => {
@@ -78,7 +77,7 @@ const ContactForm = () => {
 					/>
 				</div>
 				<div className="className=' py-1 font-bold">
-					<label htmlFor='grade'>Student's Grade/Class</label>
+					<label htmlFor='grade'>{`Student's Grade/Class`}</label>
 					<input
 						type='text'
 						id='grade'
@@ -100,5 +99,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
-
