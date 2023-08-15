@@ -1,5 +1,5 @@
 import React from "react";
-import Landingpagecomp from "../components/divine/landingpagecomp.jsx";
+import Landingpagecomp from "../components/home/landingpagecomp.jsx";
 
 export default function page() {
   return (

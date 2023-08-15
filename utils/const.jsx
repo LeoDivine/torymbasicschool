@@ -111,7 +111,7 @@ export const FOOTER_ITEMS = [
 			{ name: 'About Us', link: '/about' },
 			{ name: 'Contact US', link: '/contact' },
 			{ name: 'Admission', link: '/contact' },
-			{ name: 'Academics', link: '/contact' },
+			{ name: 'Academics', link: '/events' },
 		],
 	},
 	{
@@ -121,14 +121,14 @@ export const FOOTER_ITEMS = [
 				name: 'Get Direction',
 				link: 'https://goo.gl/maps/igGWyLjzogTEvUhg9',
 			},
-			{ name: 'Address', link: '' },
+			{ name: 'Address', link: '/contact' },
 		],
 	},
 	{
 		title: 'School Hours',
 		links: [
-			{ name: 'Start', link: '#' },
-			{ name: 'End', link: '#' },
+			{ name: 'Start', link: '/contact' },
+			{ name: 'End', link: '/contact' },
 		],
 	},
 	{
