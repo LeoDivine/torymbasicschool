@@ -24,7 +24,7 @@ const EventsCalendarPage = () => {
 		<div className='bg-gray-300 mx-auto p-8'>
 			<div className='w-full mb-4'>
 				<h2 className='text-3xl font-bold mb-4 font-serif'>
-					Event Calendar
+					{`Event Calendar`}
 				</h2>
 				<FullCalendar
 					plugins={[dayGridPlugin]}

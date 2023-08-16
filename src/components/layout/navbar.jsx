@@ -35,12 +35,12 @@ const Navbar = () => {
 					<Link href='/contact' className='text-white'>
 						{`Contact`}
 					</Link>
-					<Link href='/admission' className='text-white'>
+					<Link href='/admission' className='text-white block'>
 						<ScrollLink
 							to='enrollment-info'
 							smooth={true}
 							duration={500}
-							className='cursor-pointer'
+							className='cursor-pointer text-white block'
 						>
 							{`Admission`}
 						</ScrollLink>
@@ -102,12 +102,12 @@ const Navbar = () => {
 				<Link href='/contact' className='text-white block'>
 					{`Contact`}
 				</Link>
-				<Link href='/admission' className='text-white'>
+				<Link href='/admission' className='text-white block'>
 					<ScrollLink
 						to='enrollment-info'
 						smooth={true}
 						duration={500}
-						className='cursor-pointer'
+						className='cursor-pointer text-white block'
 					>
 						{`Admission`}
 					</ScrollLink>

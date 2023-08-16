@@ -10,7 +10,7 @@ const About = () => {
 				<h1 className='text-4xl md:text-6xl font-serif pb-6 pt-10'>
 					About us
 				</h1>
-				<p className='text-lg md:text-xl font-sans pb-10'>
+				<p className='text-lg  font-semibold md:text-xl font-sans pb-10'>
 					{`Founded in 2021, Tory M Basic School has been providing
 					quality early childhood education for four years. Our
 					nurturing and stimulating learning environment fosters
