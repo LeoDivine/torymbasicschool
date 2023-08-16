@@ -54,7 +54,7 @@ const ContactForm = () => {
 					</div>
 				</div>
 				<div className=' py-2 font-bold'>
-					<label htmlFor='subject'>Subject</label>
+					<label htmlFor='subject'>{`Subject`}</label>
 					<input
 						type='text'
 						id='subject'
@@ -66,7 +66,7 @@ const ContactForm = () => {
 					/>
 				</div>
 				<div className="className=' font-bold py-2 '">
-					<label htmlFor='message'>Message</label>
+					<label htmlFor='message'>{`Message`}</label>
 					<textarea
 						id='message'
 						name='message'
@@ -89,9 +89,9 @@ const ContactForm = () => {
 				</div>
 				<button
 					type='submit'
-					className='bg-pink-300 text-white px-4 py-2 rounded mt-4'
+					className='bg-pink-400 text-white px-4 py-2 rounded mt-4'
 				>
-					Submit
+					{`Submit`}
 				</button>
 			</form>
 		</div>
