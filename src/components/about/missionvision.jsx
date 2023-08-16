@@ -27,7 +27,7 @@ const Mission = () => {
 					<h1 className='font-bold text-xl md:text-4xl font-serif'>
 						Our Mission
 					</h1>
-					<p className='pt-4 md:pt-6 text-md md:text-lg font-sans'>
+					<p className='pt-4 md:pt-6 text-md md:text-lg font-semibold font-sans'>
 						{`To provide a nurturing and stimulating learning
 						environment that empowers young minds to explore,
 						discover, and grow. We are committed to fostering
@@ -69,7 +69,7 @@ const Mission = () => {
 					<h1 className='font-bold text-xl md:text-4xl font-serif'>
 						Our Vision
 					</h1>
-					<p className='pt-4 md:pt-6 text-md md:text-lg font-sans'>
+					<p className='pt-4 md:pt-6 text-md md:text-lg  font-semibold font-sans'>
 						{`To be a leading pre-school that sets the standard
 						for excellence in early childhood education. Our
 						vision is to create a safe and inclusive community
