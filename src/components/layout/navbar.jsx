@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
@@ -14,7 +14,7 @@ const Navbar = () => {
 		<nav className='bg-gray-800'>
 			<div className='flex items-center justify-between px-4 py-2'>
 				<div className='flex items-center'>
-					<div className='text-white text-xl'>
+					<div className='text-xl'>
 						<img
 							className='w-16 h-16'
 							src='Image/Logo.png'
@@ -22,29 +22,35 @@ const Navbar = () => {
 						/>
 					</div>
 				</div>
-				<div className='hidden md:flex items-center gap-10'>
-					<Link href='/' className='text-white'>
-						{`Home`}
-					</Link>
-					<Link href='/about' className='text-white'>
-						{`About`}
-					</Link>
-					<Link href='/gallery' className='text-white'>
-						{`Gallery`}
-					</Link>
-					<Link href='/contact' className='text-white'>
-						{`Contact`}
-					</Link>
-					<Link href='/admission' className='text-white block'>
-						<ScrollLink
-							to='enrollment-info'
-							smooth={true}
-							duration={500}
-							className='cursor-pointer text-white block'
-						>
-							{`Admission`}
-						</ScrollLink>
-					</Link>
+				<div className='text-white hidden md:flex items-center gap-10'>
+					<Link
+						onClick={() => setIsOpen(false)}
+						href='/'
+					>{`Home`}</Link>
+					<Link
+						onClick={() => setIsOpen(false)}
+						href='/about'
+					>{`About`}</Link>
+					<Link
+						onClick={() => setIsOpen(false)}
+						href='/gallery'
+					>{`Gallery`}</Link>
+					<Link
+						onClick={() => setIsOpen(false)}
+						href='/contact'
+					>{`Contact`}</Link>
+					<Link
+						onClick={() => setIsOpen(false)}
+						href='/#enrollment-info'
+					>{`Admission`}</Link>
+					{/* <ScrollLink
+						to='enrollment-info'
+						smooth={true}
+						duration={500}
+						className='cursor-pointer '
+					>
+						{`Admission`}
+					</ScrollLink> */}
 				</div>
 				<div className='md:hidden flex items-center'>
 					<button
@@ -86,32 +92,46 @@ const Navbar = () => {
 				</div>
 			</div>
 			<div
-				className={`flex flex-col gap-10 text-center overflow-hidden uppercase md:hidden transition-all ${
-					isOpen ? "h-72 z-10" : "h-0 z-0 "
+				className={`text-white absolute z-50 top-0 left-0 w-full mt-[80px] bg-gray-800 flex flex-col gap-10 text-center overflow-hidden uppercase md:hidden transition-all ${
+					isOpen ? "h-[100vh]" : "h-0"
 				} duration-500 ease-in-out`}
 			>
-				<Link href='/' className='text-white block'>
+				<Link
+					onClick={() => setIsOpen(false)}
+					href='/'
+					className=''
+				>
 					{`Home`}
 				</Link>
-				<Link href='/about' className='text-white block'>
+				<Link
+					onClick={() => setIsOpen(false)}
+					href='/about'
+					className=''
+				>
 					{`About`}
 				</Link>
-				<Link href='/gallery' className='text-white block'>
+				<Link
+					onClick={() => setIsOpen(false)}
+					href='/gallery'
+					className=''
+				>
 					{`Gallery`}
 				</Link>
-				<Link href='/contact' className='text-white block'>
+				<Link
+					onClick={() => setIsOpen(false)}
+					href='/contact'
+					className=''
+				>
 					{`Contact`}
 				</Link>
-				<Link href='/admission' className='text-white block'>
-					<ScrollLink
-						to='enrollment-info'
-						smooth={true}
-						duration={500}
-						className='cursor-pointer text-white block'
-					>
-						{`Admission`}
-					</ScrollLink>
-				</Link>
+				<ScrollLink
+					to='enrollment-info'
+					smooth={true}
+					duration={500}
+					className='cursor-pointer'
+				>
+					{`Admission`}
+				</ScrollLink>
 			</div>
 		</nav>
 	);
