@@ -1,15 +1,16 @@
-'use client';
-import { useState } from 'react';
-import Link from 'next/link';
- 
-const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+'use client'
+import { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
+import Link from "next/link";
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
-  
-  return (
+const Navbar = () => {
+	const [isOpen, setIsOpen] = useState(false);
+
+	const toggleNavbar = () => {
+		setIsOpen(!isOpen);
+	};
+
+	return (
 		<nav className='bg-gray-800'>
 			<div className='flex items-center justify-between px-4 py-2'>
 				<div className='flex items-center'>
@@ -23,16 +24,26 @@ const Navbar = () => {
 				</div>
 				<div className='hidden md:flex items-center gap-10'>
 					<Link href='/' className='text-white'>
-						Home
+						{`Home`}
 					</Link>
 					<Link href='/about' className='text-white'>
-						About
+						{`About`}
 					</Link>
 					<Link href='/gallery' className='text-white'>
-						Gallery
+						{`Gallery`}
 					</Link>
 					<Link href='/contact' className='text-white'>
-						Contact
+						{`Contact`}
+					</Link>
+					<Link href='/admission' className='text-white'>
+						<ScrollLink
+							to='enrollment-info'
+							smooth={true}
+							duration={500}
+							className='cursor-pointer'
+						>
+							{`Admission`}
+						</ScrollLink>
 					</Link>
 				</div>
 				<div className='md:hidden flex items-center'>
@@ -76,24 +87,34 @@ const Navbar = () => {
 			</div>
 			<div
 				className={`flex flex-col gap-10 text-center overflow-hidden uppercase md:hidden transition-all ${
-					isOpen ? "h-72" : "h-0"
+					isOpen ? "h-72 z-10" : "h-0 z-0 "
 				} duration-500 ease-in-out`}
 			>
 				<Link href='/' className='text-white block'>
-					Home
+					{`Home`}
 				</Link>
 				<Link href='/about' className='text-white block'>
-					About
+					{`About`}
 				</Link>
 				<Link href='/gallery' className='text-white block'>
-					Gallery
+					{`Gallery`}
 				</Link>
 				<Link href='/contact' className='text-white block'>
-					Contact
+					{`Contact`}
+				</Link>
+				<Link href='/admission' className='text-white'>
+					<ScrollLink
+						to='enrollment-info'
+						smooth={true}
+						duration={500}
+						className='cursor-pointer'
+					>
+						{`Admission`}
+					</ScrollLink>
 				</Link>
 			</div>
 		</nav>
-  );
+	);
 };
 
 export default Navbar;
