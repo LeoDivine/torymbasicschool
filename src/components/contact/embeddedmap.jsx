@@ -9,7 +9,7 @@ const EmbeddedMap = () => {
 			style={{ border: 0 }}
 			allowFullScreen=''
 			loading='lazy'
-			referrerPolicy='no-referrer-when-downgrade'
+			referrerPolicy='no-referrer-when-downgrade' 
             className=" mt-24 p-4 border rounded-2xl object-contain bg-gray-800"
 		></iframe>
 	);
