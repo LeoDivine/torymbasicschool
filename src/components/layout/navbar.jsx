@@ -43,14 +43,14 @@ const Navbar = () => {
 						onClick={() => setIsOpen(false)}
 						href='/#enrollment-info'
 					>{`Admission`}</Link>
-					{/* <ScrollLink
+					<ScrollLink
 						to='enrollment-info'
 						smooth={true}
 						duration={500}
 						className='cursor-pointer '
 					>
-						{`Admission`}
-					</ScrollLink> */}
+						
+					</ScrollLink> 
 				</div>
 				<div className='md:hidden flex items-center'>
 					<button
