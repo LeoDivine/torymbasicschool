@@ -30,8 +30,8 @@ const Footer = () => {
 					{`Copyright Ⓒ 2023 Tory M Basic School. All Rights
 					Reserved`}
 				</span>
-				<span>{`by WebSync`}</span>
-				<span>{`Terms . Privacy Policy`}</span>
+				<span>{`Made by WebSync`}</span>
+				
 				
 				<SocialMediaIcons SocialMedia={SocialMedia} />
 			</div>

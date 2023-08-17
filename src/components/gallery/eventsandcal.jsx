@@ -13,7 +13,6 @@ const EventsCalendar = () => {
 			</p>
 			<Link
 				href='/events'
-				target='_blank'
 				rel='noopener noreferrer'
 				className='text-white border rounded-full p-4 bg-pink-300 hover:text-gray-800 hover:font-bold mt-2 inline-block w-full md:w-auto md:text-center' 
 			>
