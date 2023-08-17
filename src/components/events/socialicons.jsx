@@ -15,7 +15,7 @@ const SocialLinks = () => {
 				/>
 			</a>
 			<a
-				href='https://www.instagram.com/'
+				href='https://www.instagram.com/akhabuevictoriamonlen'
 				target='_blank'
 				rel='noopener noreferrer'
 			>

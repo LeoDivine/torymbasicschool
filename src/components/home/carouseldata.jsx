@@ -38,8 +38,8 @@ const CarouselData = () => {
 	}, [currentSlide]);
 
 	return (
-		<div className='relative overflow-hidden rounded-lg  h-64 w-full md:w-96'>
-			<div className='carousel'>
+		<div className='relative overflow-hidden rounded-lg h-64 w-full md:w-96'>
+			<div className='carousel '>
 				{images.map((image, index) => (
 					<Image
 						key={index}
@@ -47,7 +47,7 @@ const CarouselData = () => {
 						width={384}
 						height={288}
 						alt={`Slide ${index}`}
-						className={`absolute top-0 left-0 object-contain  transition-opacity duration-300 ${
+						className={`absolute top-0 left-0 object-cover   h-full w-full transition-opacity duration-300 ${
 							index === currentSlide
 								? "opacity-100"
 								: "opacity-0"

@@ -2,7 +2,7 @@
 export const SocialMedia = [
 	{
 		name: 'phone',
-		link: 'tel:07065650838',
+		link: 'tel:07060565838',
 		icon: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
@@ -18,7 +18,7 @@ export const SocialMedia = [
 	},
 	{
 		name: "logo-instagram",
-		link: "https://instagram.com",
+		link: "https://instagram.com/akhabuevictoriamonlen",
 		icon: (
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
@@ -127,14 +127,14 @@ export const FOOTER_ITEMS = [
 	{
 		title: 'School Hours',
 		links: [
-			{ name: 'Start', link: '/contact' },
-			{ name: 'End', link: '/contact' },
+			{ name: 'Start', link: '/contact#school-hours' },
+			{ name: 'End', link: '/contact#school-hours' },
 		],
 	},
 	{
 		title: 'Contact Information',
 		links: [
-			{ name: 'Phone Number', link: 'tel:07065650838' },
+			{ name: 'Phone Number', link: 'tel:07060565838' },
 			{ name: 'Email Address', link: 'akhabuevictory427@gmail.com' },
 		],
 	},

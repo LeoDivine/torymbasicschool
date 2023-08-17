@@ -14,7 +14,7 @@ const AdmissionsInfo = () => {
 						Contact Admissions Office
 					</h3>
 					<p>Email: akhabuevictory427@gmail.com</p>
-					<p>Phone: (+234) 706-565-0838</p>
+					<p>Phone: (+234) 706-0565-838</p>
 				</div>
 				<div>
 					<h3 className='py-4 text-lg font-bold'>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const EnrollmentInformation = () => {
@@ -45,13 +46,13 @@ const EnrollmentInformation = () => {
 							{`Download our enrollment packet for detailed
 							information and forms:`}
 						</p>
-						<a
+						<Link
 							href='/enrollment-packet.pdf'
 							className='bg-pink-400 text-white py-2 px-4 rounded hover:bg-pink-500 transition'
 							download
 						>
 							{`Download Enrollment Packet`}
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

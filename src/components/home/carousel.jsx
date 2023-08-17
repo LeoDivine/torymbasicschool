@@ -3,11 +3,11 @@ import CarouselData from "./carouseldata";
 
 const Carousel = () => {
 	return (
-		<div className='flex flex-col md:flex-row p-8'>
-			<div className='w-full md:w-1/2 pr-0 md:pr-4 mb-4 md:mb-0'>
+		<div className='flex flex-col md:flex-row  py-8 px-3 '>
+			<div className='w-full md:w-1/2 pr-0 md:pr-4  mb-4 md:mb-0'>
 				<CarouselData />
 			</div>
-			<div className='w-full md:w-1/2'>
+			<div className='w-full md:absolute p-4 md:left-1/2 md:w-1/2'>
 				<h1 className='text-3xl font-serif font-bold mb-4'>
 					{`Tory M. Basic School`}
 				</h1>

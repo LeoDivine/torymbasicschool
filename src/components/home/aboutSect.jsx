@@ -3,12 +3,12 @@ import Card from './sectComp';
 
 export default function AboutSect() {
 	return (
-		<div className='my-[30px] px-[20px] text-center'>
+		<div className='my-[50px] px-[20px] text-center'>
 			<h1 className=' text-[20px] py-4 mt-10 font-bold md:text-[30px] font-serif leading-6'>
 				{`A Perfect Learning Environment for Your Kids`}
 			</h1>
 			<p className='md:text-[30px] font-medium underline font-sans py-2'>{`What We offer`}</p>
-			<div className='px-6 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+			<div className='px-auto grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
 				<Card
 					cardTitle='Guidance'
 					cardImage='/imgsrc/guidance.jpeg'
