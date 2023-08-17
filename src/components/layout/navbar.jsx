@@ -49,7 +49,6 @@ const Navbar = () => {
 						duration={500}
 						className='cursor-pointer '
 					>
-						
 					</ScrollLink> 
 				</div>
 				<div className='md:hidden flex items-center'>
@@ -124,13 +123,16 @@ const Navbar = () => {
 				>
 					{`Contact`}
 				</Link>
+				<Link
+						onClick={() => setIsOpen(false)}
+						href='/#enrollment-info'
+					>{`Admission`}</Link>
 				<ScrollLink
 					to='enrollment-info'
 					smooth={true}
 					duration={500}
 					className='cursor-pointer'
 				>
-					{`Admission`}
 				</ScrollLink>
 			</div>
 		</nav>
