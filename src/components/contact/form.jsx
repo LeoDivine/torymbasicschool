@@ -1,14 +1,13 @@
-'use client'
-import React, { useState } from "react";
-
+'use client';
+import React, { useState } from 'react';
 
 const ContactForm = () => {
 	const [formData, setFormData] = useState({
-		name: "",
-		email: "",
-		subject: "",
-		message: "",
-		grade: "",
+		name: '',
+		email: '',
+		subject: '',
+		message: '',
+		grade: '',
 	});
 
 	const handleChange = (e) => {
@@ -100,5 +99,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
-
