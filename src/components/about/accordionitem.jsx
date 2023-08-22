@@ -6,10 +6,10 @@ const AccordionItem = ({ open, toggle, title, description }) => {
 	return (
 		<div className='pt-[10px]'>
 			<div
-				className='bg-gray-800 py-[25px] px-[50px] flex justify-between items-center cursor-pointer rounded-full'
+				className='bg-gray-800 py-[25px] px-[50px] flex justify-between items-center cursor-pointer rounded-2xl'
 				onClick={toggle}
 			>
-				<p className='text-lg text-white font-normal lg:text-lg md:text-lg sm:text-sm '>{title}</p>
+				<p className='text-base text-white font-normal lg:text-lg md:text-lg sm:text-sm '>{title}</p>
 				<div className='text-[30px]'>
 					{open ? <AiOutlineMinus /> : <AiOutlinePlus />}
 				</div>
